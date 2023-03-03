@@ -13,7 +13,7 @@ Player * Referee::refGame(Player * player1, Player * player2){
         winner = player1;
     }
     else if(player1->makeMove() == player2->makeMove()){
-        return nullptr;
+        winner = nullptr;
     }
     else{
         winner = player2;
