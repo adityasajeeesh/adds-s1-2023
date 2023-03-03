@@ -1,6 +1,5 @@
 #include<iostream>
-#include<string>
-#include<Player.h>
+#include "Player.h"
 #ifndef E06212A3_6FE6_490F_925D_2A3E8D6C6964
 #define E06212A3_6FE6_490F_925D_2A3E8D6C6964
 

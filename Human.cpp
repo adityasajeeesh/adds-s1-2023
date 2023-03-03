@@ -1,7 +1,6 @@
 #include<iostream>
-#include<Human.h>
-#include<Player.h>
-#include<string>
+#include "Human.h"
+#include "Player.h"
 
 std::string Human::getName(){
     return playerName;

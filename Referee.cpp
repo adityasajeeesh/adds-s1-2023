@@ -1,8 +1,8 @@
 #include<iostream>
-#include<Human.h>
-#include<Player.h>
-#include<Computer.h>
-#include<Referee.h>
+#include "Human.h"
+#include "Player.h"
+#include "Computer.h"
+#include "Referee.h"
 #include<string>
 
 Player Referee::*refGame(Player * player1, Player * player2){

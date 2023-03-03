@@ -1,6 +1,5 @@
 #include<iostream>
-#include<string>
-#include<Player.h>
+#include "Player.h"
 #ifndef BCD1F12B_9D97_4CB3_BAAD_E179D9D7C4E1
 #define BCD1F12B_9D97_4CB3_BAAD_E179D9D7C4E1
 
