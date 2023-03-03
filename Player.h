@@ -1,5 +1,5 @@
-#ifndef A819A631_5189_4492_834C_84554C7E252E
-#define A819A631_5189_4492_834C_84554C7E252E
+#ifndef PLAYER_H
+#define PLAYER_H
 #include<iostream>
 #include<algorithm>
 #include<string>
@@ -10,4 +10,4 @@ class Player{
         virtual std::string getName()=0;
 };
 
-#endif /* A819A631_5189_4492_834C_84554C7E252E */
+#endif /* PLAYER_H */

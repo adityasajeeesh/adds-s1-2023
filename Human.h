@@ -1,7 +1,7 @@
 #include<iostream>
 #include "Player.h"
-#ifndef E06212A3_6FE6_490F_925D_2A3E8D6C6964
-#define E06212A3_6FE6_490F_925D_2A3E8D6C6964
+#ifndef HUMAN_H
+#define HUMAN_H
 
 class Human : public Player{
     public:
@@ -13,4 +13,4 @@ class Human : public Player{
         char makeMove(); // sets move of player
 };
 
-#endif /* E06212A3_6FE6_490F_925D_2A3E8D6C6964 */
+#endif /* HUMAN_H */

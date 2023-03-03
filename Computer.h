@@ -1,7 +1,7 @@
 #include<iostream>
 #include "Player.h"
-#ifndef BCD1F12B_9D97_4CB3_BAAD_E179D9D7C4E1
-#define BCD1F12B_9D97_4CB3_BAAD_E179D9D7C4E1
+#ifndef COMPUTER_H
+#define COMPUTER_H
 
 class Computer : public Player{
     public:
@@ -12,4 +12,4 @@ class Computer : public Player{
         char makeMove(); // sets move of computer
 };
 
-#endif /* BCD1F12B_9D97_4CB3_BAAD_E179D9D7C4E1 */
+#endif /* COMPUTER_H */
