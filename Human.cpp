@@ -8,7 +8,6 @@ std::string Human::getName(){
 char Human::makeMove(){
     std::cout << "Enter move: ";
     std::cin >> playerMove;
-    return playerMove;
 };
 char Human::getMove(){
     return playerMove;
