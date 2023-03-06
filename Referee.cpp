@@ -9,9 +9,9 @@ Player * Referee::refGame(Player * player1, Player * player2){
     Player * winner;
     player1->makeMove();
     player2->makeMove();
-    if(player1->makeMove() == 'P' && player2->makeMove() == 'R' ||
-        player1->makeMove() == 'S' && player2->makeMove() == 'P' ||
-        player1->makeMove() == 'R' && player2->makeMove() == 'S'){
+    if(player1->getMove() == 'P' && player2->getMove() == 'R' ||
+        player1->getMove() == 'S' && player2->getMove() == 'P' ||
+        player1->getMove() == 'R' && player2->getMove() == 'S'){
         winner = player1;
     }
     else if(player1->makeMove() == player2->makeMove()){
