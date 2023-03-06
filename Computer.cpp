@@ -2,6 +2,8 @@
 #include "Player.h"
 #include "Computer.h"
 
+Computer::Computer(){};
+
 std::string Computer::getName(){
     return computerName;
 };

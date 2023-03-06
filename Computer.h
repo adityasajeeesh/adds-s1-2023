@@ -4,10 +4,11 @@
 #define COMPUTER_H
 
 class Computer : public Player{
-    public:
+    protected:
         std::string computerName = "Computer";
         char computerMove;
-        Computer(){};
+    public:
+        Computer();
         Computer(std::string compName){computerName=compName;}
         std::string getName(); // get name of computer
         char makeMove(); // sets move of computer
