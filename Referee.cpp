@@ -5,20 +5,20 @@
 #include "Referee.h"
 #include<string>
 
-int Referee::refGame(Player * player1, Player * player2){
-    int winner;
+Player * Referee::refGame(Player * player1, Player * player2){
+    Player * winner;
     player1->makeMove();
     player2->makeMove();
     if(player1->makeMove() == 'P' && player2->makeMove() == 'R' ||
         player1->makeMove() == 'S' && player2->makeMove() == 'P' ||
         player1->makeMove() == 'R' && player2->makeMove() == 'S'){
-        winner = 1;
+        winner = player1;
     }
     else if(player1->makeMove() == player2->makeMove()){
-        winner = 0;
+        winner = nullptr;
     }
     else{
-        winner = 2;
+        winner = player2;
     }
     return winner;
 };
