@@ -11,7 +11,7 @@ class Human : public Player{
         Human(std::string name){playerName=name;}
         std::string getName(); // get name of player
         char makeMove(); // sets move of player
-        char returnMove(); // returns move of player
+        char getMove(); // returns move of player
 };
 
 #endif /* HUMAN_H */
