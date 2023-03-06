@@ -5,11 +5,12 @@
 Computer::Computer(){};
 
 std::string Computer::getName(){
+    computerName = "Computer";
     return computerName;
 };
 char Computer::makeMove(){
-    char computerMove = 'R';
-    return 0;
+    computerMove = 'R';
+    return computerMove;
 };
 char Computer::getMove(){
     return computerMove;

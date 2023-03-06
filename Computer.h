@@ -5,7 +5,7 @@
 
 class Computer : public Player{
     protected:
-        std::string computerName = "Computer";
+        std::string computerName;
         char computerMove;
     public:
         Computer();
