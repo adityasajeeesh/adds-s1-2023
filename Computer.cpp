@@ -7,5 +7,7 @@ std::string Computer::getName(){
 };
 char Computer::makeMove(){
     char computerMove = 'R';
+};
+char Computer::returnMove(){
     return computerMove;
 };
